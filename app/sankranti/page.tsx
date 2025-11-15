@@ -51,6 +51,7 @@ export default function SankrantiPage() {
   ];
 
   return (
+    <>
     <div className="relative sankranti-bg-container">
       {/* Background video */}
       <video
@@ -64,7 +65,7 @@ export default function SankrantiPage() {
       </video>
 
       {/* Overlay shade */}
-      <div className="background-overlay"></div>
+      {/* <div className="background-overlay"></div> */}
 
       <main ref={ref} className="relative min-h-screen z-20 text-sankranti-red">
         <motion.div style={{ opacity: heroOpacity }}>
@@ -248,5 +249,6 @@ export default function SankrantiPage() {
         </motion.section>
       </main>
     </div>
+    </>
   );
 }

@@ -50,3 +50,26 @@
 .modal-scroll::-webkit-scrollbar-thumb {
   background: rgba(0, 0, 0, 0.7);
 }
+/* Dark animated nebula gradient */
+/* .bg-gradient-animate {
+  background: radial-gradient(circle at 20% 20%, #3b0066, #120019 60%),
+              radial-gradient(circle at 80% 80%, #001a33, #00010d 70%);
+  background-blend-mode: screen;
+  animation: bgPulse 10s ease-in-out infinite alternate;
+}
+
+@keyframes bgPulse {
+  0% {
+    background-size: 100% 100%;
+    filter: brightness(0.8);
+  }
+  50% {
+    background-size: 120% 120%;
+    filter: brightness(1);
+  }
+  100% {
+    background-size: 100% 100%;
+    filter: brightness(0.85);
+  }
+} */
+
