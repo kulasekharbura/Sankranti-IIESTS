@@ -61,7 +61,7 @@ export default function GalleryClient({ images, year, section }: Props) {
       <section className="w-full py-12 text-center">
         <h1 className="text-6xl font-extrabold drop-shadow-xl great-vibes">{section}</h1>
         <p className="text-3xl text-gray-300 mt-2 comforter ">
-          Memories on{" "}
+          Memories of{" "}
           <span className="text-yellow-400 font-semibold">{year}</span>
         </p>
         <div className="w-24 h-1 bg-yellow-500 mx-auto mt-4 rounded-full shadow-[0_0_10px_#facc15]" />
