@@ -95,7 +95,7 @@ const App: React.FC = () => {
         >
           Celebrating the joy of{" "}
           <span className="text-[#FFBA08]" style={{ fontFamily: "'poppins', cursive" }}>
-            Batches from 2024 Passouts
+            Batches from 2023 Passouts
           </span>
         </p>
 
