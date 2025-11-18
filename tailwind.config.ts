@@ -238,6 +238,11 @@ const config = {
             transform: 'translateY(0)',
           },
         },
+        float: {
+          "0%": { transform: "translateY(0px)" },
+          "50%": { transform: "translateY(-20px)" },
+          "100%": { transform: "translateY(0px)" },
+        },
         "fadesmooth": {
           '0%':{
             opacity: '0',
@@ -260,7 +265,9 @@ const config = {
         'fade-in': 'fade-in 1.2s ease-out both',
         'text-fade-out': 'fadeOut 2000ms ease-in-out forwards',
         'text-fade-in': 'fadeIn 500ms ease-in-out forwards',
-        'fadeSmooth':'fadesmooth 0.8s ease-out forwards'
+        'fadeSmooth':'fadesmooth 0.8s ease-out forwards',
+        "float": "float 4s ease-in-out infinite",
+        "float-slow": "float 6s ease-in-out infinite",
       },
       fontFamily: {
         inter: ['"Inter"', "sans-serif"],
